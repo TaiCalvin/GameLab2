@@ -25,7 +25,7 @@ while (userHealth > 0 && win < 3) {
   } else if (userHealth === 0) {
     console.log("Game Over.");
   }
-  else if (decision === "quit"){
+  if (decision === "quit"){
     break;
   }
 }
